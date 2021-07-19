@@ -1,0 +1,415 @@
+/*********** BASE STYLES *********/
+    body {
+        color: #2b2b2b;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+/*********** GRID ************/
+    .container {
+        margin: 0 auto;
+        width: 1500px;
+    }
+
+    .full-width {
+        margin: 0 auto;
+        overflow: auto;
+        width: 1500px;
+    }
+    
+    .half-width {
+        float: left;
+        width: 750px;    
+    }
+
+    .third-width {
+        box-sizing: border-box;
+        float: left; 
+        width: 400px;
+        height: 400px;
+        padding: 20px;
+    }
+
+    .main-box {
+        margin: 0 auto;
+        width: 1200px;
+    }
+
+    .main-full-width {
+        margin: 0 auto;
+        overflow: auto;
+        padding: 20px;
+        width: 1200px;
+    }
+
+    .main-half-width {
+        float: left;
+        width: 600px;
+    }
+
+    
+
+
+/************** HOME *********/
+
+    /****HEADER HOME******/
+        .home {
+            background: url("../img/header.png");
+            height: 600px;
+            width: 1500px;
+        }
+
+        .home h1 { 
+            color: #2F8A72;
+            font-family: 'Merienda', cursive;
+            font-size:50px; 
+            padding-left: 150px;
+            padding-top: 25px;
+        }
+
+        .home stan {
+            color: #073B4B; 
+            line-height: 50px;
+            padding-left: 193px;
+        }
+
+        .home nav {
+            float: right; 
+            padding: 487px 20px;
+        }
+
+        .home nav ul li{
+            display: inline-block;
+        }
+
+        .home nav ul li a {
+            color: #073B4B;
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 20px; 
+            text-transform: uppercase;
+            text-decoration:none;
+        }
+
+
+    /*********** HOME MAIN **********/
+   
+    .main-box h3 {
+        color: #073B4B;
+        font-size: 30px;
+    }
+
+    #business {
+        display: inline-block;
+        margin: 50px 0px;
+    }
+
+    #business p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #business a {
+        text-decoration: none;
+    }
+
+    #photography {
+        clear: both;
+        display: inline-block; 
+        margin: 75px 0px;
+    }
+
+    #photography p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #photography a {
+        text-decoration: none;
+    }
+
+    #home-about {
+        clear: both;
+        display: inline-block; 
+        margin: 50px 0px;
+    }
+
+    #home-about p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #home-about-text {
+        padding-top: 40px;
+    }
+
+    #home-about a {
+        text-decoration: none;
+    }
+
+
+    /******PHOTOGRAPHY HEADER*********/
+        .photography {
+            background: url("../img/photography-header.png");
+            height: 700px;
+            width: 1500px;
+        }
+
+        .photography h1 { 
+            color: #CACAC4;
+            font-family: 'Merienda', cursive;
+            font-size:50px; 
+            padding-left: 200px;
+            padding-top: 20px;
+        }
+
+        .photography stan {
+            color: #080C0D; 
+            line-height: 190px;
+            padding-left: 200px;
+        }
+
+        .photography nav {
+            float: right; 
+            padding: 640px 20px;
+        }
+
+        .photography nav ul li{
+            display: inline-block;
+        }
+
+        .photography nav ul li a {
+            color: #CACAC4;
+            font-size: 18px;
+            padding-left: 25px; 
+            text-transform: uppercase;
+            text-decoration:none;
+        }
+
+        .main-full-width h2 {
+            color: #080C0D;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .main-full-width p{
+            color: #080C0D;
+            font-size: 20px;
+            line-height: 35px;
+        }
+    
+        /*******MAIN PHOTOGRAPHY*****/
+        .first-line {
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .second-line {
+            display: inline-block;
+            margin-top: 50px;
+        }
+        
+        .third-line {
+            display: inline-block;
+            margin-top: 50px;
+        }    
+
+
+
+/************* Footer ***************/
+       
+    .copyright {
+        clear: both;
+        text-align: center;
+    }
+
+    h4 {
+        color: #030303;
+        font-family: 'Libre baskerville', serif;
+        font-size: 18px;
+        line-height: 32px;
+        margin-top: 50px;
+    }
+
+
+
+
+
+
+/**********Jubilee Austen**********/
+/*********** BASE STYLES *********/
+.ja {
+    color: #2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*********** GRID ************/
+.ja-full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.ja-half-width {
+    float: left;
+    width: 600px;    
+}
+
+.ja-third-width {
+    float: left; 
+    width: 400px;
+}
+
+/************** HEADER *********/
+.ja-header {
+    background: url("../img/full-background.png");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.ja-header h1 { 
+    color: #BBC085;
+    font-family: 'Lora bold';
+    font-size:30px; 
+    padding: 65px 0 65px 25px;
+}
+
+.ja-header nav {
+    float: right; 
+    padding: 75px 25px;
+}
+
+.ja-header nav ul li{
+    display: inline-block;
+}
+
+.ja-header nav ul li a {
+    color: #9B9B9B;
+    font-size: 18px;
+    padding-left: 40px; 
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+.ja-main header h2 {
+    color: #9B9B9B;
+    font-family: 'Lora bold';
+    font-size: 72px;
+    line-height: 80px;
+    padding: 5px 0 20px 25px;
+    width: 1000px;
+}
+
+.ja-main header h2 span {
+    color: #2B2B2B;
+}
+
+/************* About ************/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family:'Lora bold';
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    color: #9B9B9B;
+    font-size: 21px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/************* WORK *************/
+#work {
+    background-color: #F8CDB6;
+    text-align: center;
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 190px;
+}
+
+#work p {
+    font-family:'Lora regular';
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px; 
+}
+
+/************* CONTACT ***************/
+#contact {
+    background-color: #EBEBEB;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family:'Lora bold';
+    font-size: 36px;
+    line-height:44px; 
+}
+
+#contact #email-header{
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    color: #C49075;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+
+/************ Work page ************/
+#workheader {
+    background-color: #F8CDB6;
+}

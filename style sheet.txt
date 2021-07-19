@@ -1,0 +1,33 @@
+Home page:
+
+	colors: black #030303
+			sea-green #2F8A72
+			sea-blue dark #073B4B
+			sea-blue light #51859E
+
+
+Phography page:
+
+	colors: black #080C0D
+	white #FFFFFF
+	stone brown #CACAC4
+	sea-blue #336896
+
+Business page:
+bakery:
+colors: beige #BEA499
+        dark kaki #3E3532
+        dark brown #423530
+background color for header image: #BEA499
+
+Office page:
+colors: dark blue #35246A
+        paper blue #BDB6D2
+        black purple #452D4F
+        background color  #B7ABCB
+
+Creative page:
+
+
+
+About page:
